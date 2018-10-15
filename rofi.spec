@@ -1,6 +1,6 @@
 Name:           rofi
 Version:        1.5.1
-Release:        1
+Release:        2
 Summary:        A window switcher, run dialog and dmenu replacement
 License:        MIT
 Group:          System/GUI/Other
@@ -13,6 +13,7 @@ BuildRequires:  flex >= 2.5.39
 BuildRequires:  librsvg2-devel
 BuildRequires:  libxkbcommon-devel
 BuildRequires:  libxkbcommon-x11-devel
+BuildRequires:  gcc
 BuildRequires:  make
 BuildRequires:  pango-devel
 BuildRequires:  startup-notification-devel
@@ -60,6 +61,9 @@ make %{?_smp_mflags}
 %{_libdir}/pkgconfig/rofi.pc
 
 %changelog
+* Mon Oct 15 2018 Brenton Horne <brentonhorne77@gmail.com> - 1.5.1-2
+- Adding gcc as a build dependency, apparently it is not installed for 
+  F29/Rawhide as a dependency of other build dependencies.
 * Mon Oct 15 2018 Brenton Horne <brentonhorne77@gmail.com> - 1.5.1-1
 - Initial commit to git repository, with the spec file taken from revision 3 of
   the OBS repository. This spec file is largely taken from openSUSE's.
