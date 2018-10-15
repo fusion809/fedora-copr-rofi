@@ -60,6 +60,6 @@ make %{?_smp_mflags}
 %{_libdir}/pkgconfig/rofi.pc
 
 %changelog
-* Mon 15 Oct 2018 Brenton Horne <brentonhorne77@gmail.com> - 1.5.1-1
+* Mon Oct 15 2018 Brenton Horne <brentonhorne77@gmail.com> - 1.5.1-1
 - Initial commit to git repository, with the spec file taken from revision 3 of
   the OBS repository. This spec file is largely taken from openSUSE's.
