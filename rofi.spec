@@ -34,7 +34,7 @@ Summary:        Development files for rofi
 Group:          Development/Libraries/C and C++
 
 %description devel
-Development files and headers for rofi
+Development files and headers for rofi.
 
 %prep
 %setup -q
