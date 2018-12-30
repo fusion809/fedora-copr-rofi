@@ -1,6 +1,6 @@
 Name:           rofi
-Version:        1.5.1
-Release:        2
+Version:        download
+Release:        1
 Summary:        A window switcher, run dialog and dmenu replacement
 License:        MIT
 Group:          System/GUI/Other
@@ -61,9 +61,11 @@ make %{?_smp_mflags}
 %{_libdir}/pkgconfig/rofi.pc
 
 %changelog
-* Mon Oct 15 2018 Brenton Horne <brentonhorne77@gmail.com> - 1.5.1-2
+*Sun Dec 30 2018 Brenton Horne <brentonhorne77@gmail.com> - download-1
+- New upstream version download.
+* Mon Oct 15 2018 Brenton Horne <brentonhorne77@gmail.com> - download-2
 - Adding gcc as a build dependency, apparently it is not installed for 
   F29/Rawhide as a dependency of other build dependencies.
-* Mon Oct 15 2018 Brenton Horne <brentonhorne77@gmail.com> - 1.5.1-1
+* Mon Oct 15 2018 Brenton Horne <brentonhorne77@gmail.com> - download-1
 - Initial commit to git repository, with the spec file taken from revision 3 of
   the OBS repository. This spec file is largely taken from openSUSE's.
