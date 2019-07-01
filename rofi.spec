@@ -1,5 +1,5 @@
 Name:           rofi
-Version:        1.5.3
+Version:        1.5.4
 Release:        1
 Summary:        A window switcher, run dialog and dmenu replacement
 License:        MIT
@@ -61,8 +61,10 @@ make %{?_smp_mflags}
 %{_libdir}/pkgconfig/rofi.pc
 
 %changelog
-*Mon Jun 24 2019 Brenton Horne <brentonhorne77@gmail.com> - 1.5.3-1
-- New upstream version 1.5.3.
+*Mon Jul 01 2019 Brenton Horne <brentonhorne77@gmail.com> - 1.5.4-1
+- New upstream version 1.5.4.
+*Mon Jun 24 2019 Brenton Horne <brentonhorne77@gmail.com> - 1.5.4-1
+- New upstream version 1.5.4.
 *Sun Dec 30 2018 Brenton Horne <brentonhorne77@gmail.com> - download-1
 - New upstream version download.
 * Mon Oct 15 2018 Brenton Horne <brentonhorne77@gmail.com> - download-2
