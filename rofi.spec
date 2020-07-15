@@ -61,6 +61,8 @@ make %{?_smp_mflags}
 %{_libdir}/pkgconfig/rofi.pc
 
 %changelog
+*Wed Jul 15 2020 Brenton Horne <brentonhorne77@gmail.com> - 1.5.4-1
+- New upstream version 1.5.4.
 *Tue Jul 14 2020 Brenton Horne <brentonhorne77@gmail.com> - 1.5.4-1
 - New upstream version 1.5.4.
 *Tue Jul 14 2020 Brenton Horne <brentonhorne77@gmail.com> - 1.5.4-1
