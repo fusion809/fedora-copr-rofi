@@ -63,6 +63,8 @@ make %{?_smp_mflags}
 %changelog
 *Fri Jul 17 2020 Brenton Horne <brentonhorne77@gmail.com> - 1.5.4-1
 - New upstream version 1.5.4.
+*Fri Jul 17 2020 Brenton Horne <brentonhorne77@gmail.com> - 1.5.4-1
+- New upstream version 1.5.4.
 *Thu Jul 16 2020 Brenton Horne <brentonhorne77@gmail.com> - 1.5.4-1
 - New upstream version 1.5.4.
 *Thu Jul 16 2020 Brenton Horne <brentonhorne77@gmail.com> - 1.5.4-1
